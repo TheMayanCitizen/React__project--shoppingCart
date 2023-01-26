@@ -1,0 +1,103 @@
+.App {
+  margin: 100px auto;
+  width: 320px;
+  height: 270px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ddf2f5;
+  border: 10px solid #7fd8e6;
+  border-radius: 10px;
+  gap: 15px;
+}
+
+.App__cart {
+  width: 160px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.App__cart--icon {
+  font-size: 20px;
+}
+
+.App__cart span {
+  font-size: 15px;
+}
+
+.App__counter {
+  background-color: #4699a6;
+  padding: 3px 20px;
+  border-radius: 20px;
+  color: white;
+}
+
+.App__buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.button__row {
+  display: flex;
+  gap: 10px;
+}
+
+.button__row button {
+  border-radius: 10px;
+}
+
+.button__row span:nth-child(1) {
+  /* background-color: #ffc107;
+  background-color: #007bff; */
+
+  width: 50px;
+  height: 20px;
+  padding: auto;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.button__row i {
+  font-size: 15px;
+  padding: 3px;
+  color: white;
+}
+
+.button__row--plus {
+  background-color: #6c757d;
+}
+.button__row--plus:hover {
+  background-color: #4c5358;
+}
+
+.button__row--minus {
+  background-color: #5dbece;
+}
+
+.button__row--minus:hover {
+  background-color: #49929d;
+}
+
+.button__row--trash {
+  background-color: #dc3545;
+}
+
+.button__row--trash:hover {
+  background-color: #aa2734;
+}
+
+.App__reset {
+  background-color: #218838;
+  border-radius: 10px;
+  font-size: 18px;
+  color: white;
+}
+
+.App__reset:hover {
+  background-color: #2ab348;
+}
